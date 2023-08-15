@@ -1,0 +1,45 @@
+* {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container{
+    max-width: 50%;
+    margin: auto;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    // border: red solid 5px;
+}
+
+.header{
+    background-color: rgb(243, 232, 35);
+    color: rgb(34, 35, 36);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header .form {
+    display: flex;
+    gap: 1rem;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.body .list {
+    display: flex;
+    gap: 1rem;
+}
+
+.no-outline {
+    outline: none;
+   
+}
